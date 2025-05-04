@@ -25,6 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+      namespace 'app.mylekha.webcontent_converter' // <-- Add this line
+    
     compileSdkVersion 33 // Use the latest stable version
 
     compileOptions {
